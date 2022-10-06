@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		994BC0ED28BBF8A900E993E0 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994BC0EC28BBF8A900E993E0 /* IntExtension.swift */; };
+		9963326C28BAB68900CD3989 /* DetailScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9963326B28BAB68900CD3989 /* DetailScreenController.swift */; };
+		9963326F28BB03E600CD3989 /* Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9963326D28BB03E600CD3989 /* Movies.xcdatamodeld */; };
+		99D248D128B98E1F0021C5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D248D028B98E1F0021C5AA /* AppDelegate.swift */; };
+		99D248D528B98E1F0021C5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D248D428B98E1F0021C5AA /* ViewController.swift */; };
+		99D248D828B98E1F0021C5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D248D628B98E1F0021C5AA /* Main.storyboard */; };
+		99D248DA28B98E200021C5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D248D928B98E200021C5AA /* Assets.xcassets */; };
+		99D248DD28B98E200021C5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D248DB28B98E200021C5AA /* LaunchScreen.storyboard */; };
+		99D248E828B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D248E728B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.swift */; };
+		99D248F228B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D248F128B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.swift */; };
+		99D248F428B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D248F328B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITestsLaunchTests.swift */; };
+		99D2490728B98E9F0021C5AA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2490628B98E9F0021C5AA /* Constant.swift */; };
+		99D2490B28B98EE60021C5AA /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 99D2490A28B98EE60021C5AA /* movies.json */; };
+		99D2490D28B991C60021C5AA /* MoviesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2490C28B991C60021C5AA /* MoviesDataModel.swift */; };
+		99D2491928B9B0920021C5AA /* PreViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2491828B9B0920021C5AA /* PreViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99D248E428B98E200021C5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D248C528B98E1F0021C5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D248CC28B98E1F0021C5AA;
+			remoteInfo = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA;
+		};
+		99D248EE28B98E200021C5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D248C528B98E1F0021C5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D248CC28B98E1F0021C5AA;
+			remoteInfo = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		994BC0EC28BBF8A900E993E0 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		9963326B28BAB68900CD3989 /* DetailScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenController.swift; sourceTree = "<group>"; };
+		9963326E28BB03E600CD3989 /* FavList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavList.xcdatamodel; sourceTree = "<group>"; };
+		99D248CD28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D248D028B98E1F0021C5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99D248D428B98E1F0021C5AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99D248D728B98E1F0021C5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99D248D928B98E200021C5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D248DC28B98E200021C5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99D248DE28B98E200021C5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D248E328B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D248E728B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.swift; sourceTree = "<group>"; };
+		99D248ED28B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D248F128B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.swift; sourceTree = "<group>"; };
+		99D248F328B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99D2490628B98E9F0021C5AA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		99D2490A28B98EE60021C5AA /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		99D2490C28B991C60021C5AA /* MoviesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDataModel.swift; sourceTree = "<group>"; };
+		99D2491828B9B0920021C5AA /* PreViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D248CA28B98E1F0021C5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D248E028B98E200021C5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D248EA28B98E200021C5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		994BC0E928BBF72E00E993E0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				994BC0EC28BBF8A900E993E0 /* IntExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		99D248C428B98E1F0021C5AA = {
+			isa = PBXGroup;
+			children = (
+				99D248CF28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA */,
+				99D248E628B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests */,
+				99D248F028B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests */,
+				99D248CE28B98E1F0021C5AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99D248CE28B98E1F0021C5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D248CD28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA.app */,
+				99D248E328B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.xctest */,
+				99D248ED28B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D248CF28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA */ = {
+			isa = PBXGroup;
+			children = (
+				994BC0E928BBF72E00E993E0 /* Extension */,
+				99D2490928B98ED50021C5AA /* Resources */,
+				99D2490328B98E7A0021C5AA /* Modules */,
+				99D2490228B98E690021C5AA /* Images */,
+				99D2490128B98E5F0021C5AA /* Design */,
+				99D2490028B98E470021C5AA /* AppDelegate */,
+				99D248DE28B98E200021C5AA /* Info.plist */,
+				9963326D28BB03E600CD3989 /* Movies.xcdatamodeld */,
+			);
+			path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA;
+			sourceTree = "<group>";
+		};
+		99D248E628B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests */ = {
+			isa = PBXGroup;
+			children = (
+				99D248E728B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.swift */,
+			);
+			path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests;
+			sourceTree = "<group>";
+		};
+		99D248F028B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99D248F128B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.swift */,
+				99D248F328B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITestsLaunchTests.swift */,
+			);
+			path = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests;
+			sourceTree = "<group>";
+		};
+		99D2490028B98E470021C5AA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				99D248D028B98E1F0021C5AA /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		99D2490128B98E5F0021C5AA /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				99D248D628B98E1F0021C5AA /* Main.storyboard */,
+				99D248DB28B98E200021C5AA /* LaunchScreen.storyboard */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		99D2490228B98E690021C5AA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				99D248D928B98E200021C5AA /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		99D2490328B98E7A0021C5AA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				99D2490828B98EAB0021C5AA /* Cell */,
+				99D2490528B98E900021C5AA /* View Model */,
+				99D2490428B98E840021C5AA /* Controller */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		99D2490428B98E840021C5AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99D248D428B98E1F0021C5AA /* ViewController.swift */,
+				9963326B28BAB68900CD3989 /* DetailScreenController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99D2490528B98E900021C5AA /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				99D2490628B98E9F0021C5AA /* Constant.swift */,
+				99D2490C28B991C60021C5AA /* MoviesDataModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		99D2490828B98EAB0021C5AA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				99D2491828B9B0920021C5AA /* PreViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		99D2490928B98ED50021C5AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99D2490A28B98EE60021C5AA /* movies.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D248CC28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D248F728B98E200021C5AA /* Build configuration list for PBXNativeTarget "TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA" */;
+			buildPhases = (
+				99D248C928B98E1F0021C5AA /* Sources */,
+				99D248CA28B98E1F0021C5AA /* Frameworks */,
+				99D248CB28B98E1F0021C5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA;
+			productName = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA;
+			productReference = 99D248CD28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99D248E228B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D248FA28B98E200021C5AA /* Build configuration list for PBXNativeTarget "TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests" */;
+			buildPhases = (
+				99D248DF28B98E200021C5AA /* Sources */,
+				99D248E028B98E200021C5AA /* Frameworks */,
+				99D248E128B98E200021C5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D248E528B98E200021C5AA /* PBXTargetDependency */,
+			);
+			name = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests;
+			productName = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests;
+			productReference = 99D248E328B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99D248EC28B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D248FD28B98E200021C5AA /* Build configuration list for PBXNativeTarget "TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests" */;
+			buildPhases = (
+				99D248E928B98E200021C5AA /* Sources */,
+				99D248EA28B98E200021C5AA /* Frameworks */,
+				99D248EB28B98E200021C5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D248EF28B98E200021C5AA /* PBXTargetDependency */,
+			);
+			name = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests;
+			productName = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests;
+			productReference = 99D248ED28B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D248C528B98E1F0021C5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					99D248CC28B98E1F0021C5AA = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					99D248E228B98E200021C5AA = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 99D248CC28B98E1F0021C5AA;
+					};
+					99D248EC28B98E200021C5AA = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 99D248CC28B98E1F0021C5AA;
+					};
+				};
+			};
+			buildConfigurationList = 99D248C828B98E1F0021C5AA /* Build configuration list for PBXProject "TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99D248C428B98E1F0021C5AA;
+			productRefGroup = 99D248CE28B98E1F0021C5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D248CC28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA */,
+				99D248E228B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests */,
+				99D248EC28B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D248CB28B98E1F0021C5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D248DD28B98E200021C5AA /* LaunchScreen.storyboard in Resources */,
+				99D248DA28B98E200021C5AA /* Assets.xcassets in Resources */,
+				99D2490B28B98EE60021C5AA /* movies.json in Resources */,
+				99D248D828B98E1F0021C5AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D248E128B98E200021C5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D248EB28B98E200021C5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D248C928B98E1F0021C5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D248D528B98E1F0021C5AA /* ViewController.swift in Sources */,
+				99D248D128B98E1F0021C5AA /* AppDelegate.swift in Sources */,
+				99D2491928B9B0920021C5AA /* PreViewCell.swift in Sources */,
+				9963326F28BB03E600CD3989 /* Movies.xcdatamodeld in Sources */,
+				99D2490D28B991C60021C5AA /* MoviesDataModel.swift in Sources */,
+				9963326C28BAB68900CD3989 /* DetailScreenController.swift in Sources */,
+				994BC0ED28BBF8A900E993E0 /* IntExtension.swift in Sources */,
+				99D2490728B98E9F0021C5AA /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D248DF28B98E200021C5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D248E828B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D248E928B98E200021C5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D248F428B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITestsLaunchTests.swift in Sources */,
+				99D248F228B98E200021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D248E528B98E200021C5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D248CC28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA */;
+			targetProxy = 99D248E428B98E200021C5AA /* PBXContainerItemProxy */;
+		};
+		99D248EF28B98E200021C5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D248CC28B98E1F0021C5AA /* TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA */;
+			targetProxy = 99D248EE28B98E200021C5AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99D248D628B98E1F0021C5AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D248D728B98E1F0021C5AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99D248DB28B98E200021C5AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D248DC28B98E200021C5AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D248F528B98E200021C5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99D248F628B98E200021C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D248F828B98E200021C5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..TELUS-OPUS-ASSIGNMENT1-VIBHA-FINAVIYA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99D248F928B98E200021C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..TELUS-OPUS-ASSIGNMENT1-VIBHA-FINAVIYA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		99D248FB28B98E200021C5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..TELUS-OPUS-ASSIGNMENT1-VIBHA-FINAVIYATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA.app/TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA";
+			};
+			name = Debug;
+		};
+		99D248FC28B98E200021C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..TELUS-OPUS-ASSIGNMENT1-VIBHA-FINAVIYATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA.app/TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA";
+			};
+			name = Release;
+		};
+		99D248FE28B98E200021C5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..TELUS-OPUS-ASSIGNMENT1-VIBHA-FINAVIYAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA;
+			};
+			name = Debug;
+		};
+		99D248FF28B98E200021C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..TELUS-OPUS-ASSIGNMENT1-VIBHA-FINAVIYAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D248C828B98E1F0021C5AA /* Build configuration list for PBXProject "TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D248F528B98E200021C5AA /* Debug */,
+				99D248F628B98E200021C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D248F728B98E200021C5AA /* Build configuration list for PBXNativeTarget "TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D248F828B98E200021C5AA /* Debug */,
+				99D248F928B98E200021C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D248FA28B98E200021C5AA /* Build configuration list for PBXNativeTarget "TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D248FB28B98E200021C5AA /* Debug */,
+				99D248FC28B98E200021C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D248FD28B98E200021C5AA /* Build configuration list for PBXNativeTarget "TELUS_OPUS_ASSIGNMENT1_VIBHA_FINAVIYAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D248FE28B98E200021C5AA /* Debug */,
+				99D248FF28B98E200021C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9963326D28BB03E600CD3989 /* Movies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9963326E28BB03E600CD3989 /* FavList.xcdatamodel */,
+			);
+			currentVersion = 9963326E28BB03E600CD3989 /* FavList.xcdatamodel */;
+			path = Movies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99D248C528B98E1F0021C5AA /* Project object */;
+}
